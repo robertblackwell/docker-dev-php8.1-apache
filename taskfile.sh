@@ -31,7 +31,7 @@ function start-standalone {
 }
 
 function stop-standalone {
-    docker kill wa-php-server
+    docker kill apache-php-running
 }
 
 function exec {
