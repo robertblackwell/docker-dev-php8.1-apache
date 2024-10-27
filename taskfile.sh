@@ -18,7 +18,7 @@ function run {
 }
 
 function stop {
-    docker compose down
+    docker compose down  --remove-orphans
 }
 
 function start-standalone {
@@ -35,7 +35,7 @@ function stop-standalone {
 }
 
 function exec {
-    docker exec -it apache-php-server /bin/bash
+    docker exec -it apache-php-running /bin/bash
 }
 
 

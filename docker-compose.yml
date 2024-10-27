@@ -1,6 +1,6 @@
 services:
   webserver:
-    container_name: apachephp-container
+    container_name: apache-php-image
     build:
       context: .
       dockerfile: Dockerfile
