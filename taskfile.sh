@@ -4,24 +4,25 @@ function build {
     -t apache-php-image .
 }
 
-function up {
-    run
-}
+# function up {
+#     run
+# }
 
-function down {
-    stop
-}
+# function down {
+#     stop
+# }
 
-function run {
-    build
-    docker compose up
-}
+# function run {
+#     build
+#     docker compose up
+# }
 
-function stop {
-    docker compose down  --remove-orphans
-}
+# function stop {
+#     docker compose down  --remove-orphans
+# }
 
-function start_standalone {
+# function start_standalone {
+function start {
     docker run -ti \
         -p 8080:80 \
         -v ./html:/var/www/html \
@@ -30,7 +31,8 @@ function start_standalone {
         apache-php-image
 }
 
-function stop_standalone {
+# function stop_standalone {
+function stop {
     docker kill apache-php-running
 }
 
