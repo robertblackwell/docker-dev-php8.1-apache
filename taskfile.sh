@@ -21,7 +21,7 @@ function stop {
     docker compose down  --remove-orphans
 }
 
-function start-standalone {
+function start_standalone {
     docker run -ti \
         -p 8080:80 \
         -v ./html:/var/www/html \
@@ -30,7 +30,7 @@ function start-standalone {
         apache-php-image
 }
 
-function stop-standalone {
+function stop_standalone {
     docker kill apache-php-running
 }
 
