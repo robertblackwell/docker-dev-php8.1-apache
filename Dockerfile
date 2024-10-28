@@ -4,8 +4,12 @@ FROM php:8.1-apache
 # Its better to edit the apache2.conf already in pplace than make a
 # custom copy. 
 RUN echo "ServerName 127.0.0.1" >> /etc/apache2/apache2.conf
+COPY ./apachephp/sites-available/whiteacorn.conf /etc/apache2/sites-available/
+COPY ./apachephp/sites-available/iracoon.conf /etc/apache2/sites-available/
 RUN a2enmod rewrite
 RUN a2enmod userdir
+RUN a2ensite whiteacorn
+RUN a2ensite iracoon
 
 RUN docker-php-ext-install mysqli pdo pdo_mysql
 
