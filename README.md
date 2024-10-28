@@ -1,5 +1,10 @@
 # Whiteacorn apache2 installatioin
 
+Good reference for docker commands
+[https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes](https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes)
+
+[https://medium.com/@komalminhas.96/a-step-by-step-guide-to-build-and-push-your-own-docker-images-to-dockerhub-709963d4a8bc](https://medium.com/@komalminhas.96/a-step-by-step-guide-to-build-and-push-your-own-docker-images-to-dockerhub-709963d4a8bc)
+
 I am getting sick of struggling to configure `apache2` on my osx machines using the `home brew` version of that package.
 
 So I decided to make a docker container that would allow easy deployment of a suitable apache2 on any machine.
