@@ -1,4 +1,7 @@
-# Whiteacorn apache2 installatioin
+# Whiteacorn apache2 installation
+
+All the vhosts now work.
+
 https://www.pascallandau.com/blog/phpstorm-docker-xdebug-3-php-8-1-in-2022/
 Good reference for docker commands
 [https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes](https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes)
