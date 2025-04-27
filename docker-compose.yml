@@ -5,14 +5,19 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - './html/whiteacorn:/var/www/html/whiteacorn'
-      # - './html/iracoon:/var/www/html/iracoon'
-      - './html/phpmyadmin:/var/www/html/phpmyadmin'
-      # - './html/test_host:/var/www/html/test_host'
-      # - $HOME/Sites/whiteacorn:/var/www/html/whiteacorn
-      # - $HOME/Sites/iracoon:/var/www/html/iracoon
-      # - $HOME/Sites/phpmyadmin:/var/www/html/phpmyadmin
-      # - $HOME/Sites/test_site:/var/www/html/test_site
+      # - './www:/var/www'
+      # - './html/whiteacorn:/var/www/whiteacorn'
+      # - './html/iracoon:/var/www/iracoon'
+      # - './html/phpmyadmin:/var/www/phpmyadmin'
+      # - './html/test_host:/var/www/testhost'
+
+      # - '$HOME/Sites:/var/www'
+
+      - '$HOME/Sites/whiteacorn:/var/www/whiteacorn'
+      - '$HOME/Sites/iracoon:/var/www/iracoon'
+      - '$HOME/Sites/phpmyadmin:/var/www/phpmyadmin'
+      - './www/testhost:/var/www/testhost'
+      - './www:/var/www'
     ports:
       - 80:80
     extra_hosts:
