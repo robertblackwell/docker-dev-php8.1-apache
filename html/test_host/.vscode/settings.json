@@ -1,0 +1,8 @@
+{
+    "phpcbf.executablePath": "/Users/robertblackwell/.composer/vendor/bin/phpcbf",
+    "phpcbf.debug": true,
+    "phpcbf.onsave": true,
+    "phpcbf.standard": "Blackwell",
+    "git.ignoreLimitWarning": true,
+    "editor.fontSize": 13
+}

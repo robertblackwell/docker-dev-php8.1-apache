@@ -1,0 +1,909 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Aug 17 14:17:22 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# environment
+OPAM_SWITCH_PREFIX = /home/robert/.opam/4.14.0
+# default
+.SHELLFLAGS := -c
+# environment
+OCAML_TOPLEVEL_PATH = /home/robert/.opam/4.14.0/lib/toplevel
+# makefile (from 'makefile', line 41)
+GIT_ALT_ORIGIN = bitbucket
+# makefile (from 'makefile', line 35)
+SERVER = webfaction
+# environment
+XDG_SESSION_CLASS = user
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+XDG_SESSION_TYPE = x11
+# makefile (from 'makefile', line 31)
+TARGET = $(shell php ./Bin/get_target.php)
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'makefile', line 80)
+DRY_RUN_DATA = 
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/robert/Sites/whiteacorn
+# makefile
+SHELL = /bin/sh
+# environment
+SNAP_DATA = /var/snap/code/104
+# environment
+VTE_VERSION = 6003
+# makefile (from 'makefile', line 71)
+FACEBOOK = $(LOCAL_ROOT)/utests/facebook
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+JOURNAL_STREAM = 8:55157
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from 'make-credentials-webfaction', line 4)
+REMOTE_ROOT = $(USER)@$(HOST):/home/$(USER)/webapps/$(TARGET)/
+# makefile (from 'makefile', line 65)
+IMAGES = $(LOCAL_ROOT)/images
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+SNAP_ARCH = amd64
+# makefile (from 'makefile', line 48)
+CTL = $(LOCAL_ROOT)/ctl
+# makefile (from 'makefile', line 98)
+MYSQLDUMP_FILE = ./Sql/dump.sql
+# makefile (from 'make-credentials-webfaction', line 1)
+MAKEFILE_LIST :=  makefile make-credentials-webfaction
+# automatic
+@F = $(notdir $@)
+# environment
+IM_CONFIG_PHASE = 1
+# makefile (from 'makefile', line 68)
+EXCLUDE_FILE = ./build/excludes.txt
+# makefile (from 'makefile', line 61)
+PHP = $(LOCAL_ROOT)/php
+# environment
+USERNAME = robert
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# makefile (from 'makefile', line 49)
+DOCSRC = $(LOCAL_ROOT)/docs-src
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# makefile (from 'makefile', line 64)
+SKINS = $(LOCAL_ROOT)/skins
+# makefile (from 'makefile', line 72)
+TESTS = $(LOCAL_ROOT)/tests
+# environment
+MANAGERPID = 1813
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# makefile (from 'makefile', line 93)
+MYSQLCMD = mysql -v --host=localhost --user=$(MYSQL_USER) --password=$(MYSQL_USER_PASSWORD) $(DBNAME)
+# environment
+VSCODE_CWD = /home/robert/Sites/whiteacorn
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/104/usr/share/glib-2.0/schemas
+# makefile (from 'makefile', line 62)
+SQL = $(LOCAL_ROOT)/Sql
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/robert/.opam/4.14.0/bin:/home/robert/.local/share/swift-5.6.1-RELEASE-ubuntu20.04/usr/bin:/home/robert/bin:/home/robert/zig:/home/robert/.local/bin:/home/robert/.cargo/bin:/home/robert/.local/bin:/home/robert/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robert/.dotnet/tools:/home/robert/.local/share/coursier/bin:/usr/local/go/bin:/home/robert/.local/share/coursier/bin
+# makefile (from 'makefile', line 56)
+MAKEFILE = $(LOCAL_ROOT)/makefile
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# makefile (from 'makefile', line 75)
+DRY_RUN = 
+# environment
+SESSION_MANAGER = local/robert-MS-7C35:@/tmp/.ICE-unix/2313,unix/robert-MS-7C35:/tmp/.ICE-unix/2313
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'makefile', line 89)
+MYSQL_USER = root
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/robert/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# makefile (from 'makefile', line 90)
+MYSQL_USER_PASSWORD = wara2074
+# environment
+SNAP = /snap/code/104
+# makefile (from 'makefile', line 132)
+PHPCS = @~/.composer/vendor/bin/phpcs -s
+# makefile (from 'makefile', line 28)
+LIVE = whiteacorn
+# environment
+SNAP_VERSION = 6d9b74a7
+# environment
+XDG_MENU_PREFIX = gnome-
+# makefile (from 'makefile', line 70)
+FB = $(LOCAL_ROOT)/fb
+# environment
+BASHRC_X = :bashrc_x
+# environment
+DISABLE_WAYLAND = 1
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from 'make-credentials-webfaction', line 3)
+PASSWORD = wara2074
+# environment
+INVOCATION_ID = 14e022af675d4c118e2afebb45fd4864
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/104/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# makefile (from 'makefile', line 133)
+STANDARD = Blackwell
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+PWD = /home/robert/Sites/whiteacorn
+# makefile (from 'makefile', line 11)
+LOCAL_ROOT = $(shell pwd)
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 2217
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+MANPATH = :/home/robert/.opam/4.14.0/man
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/robert
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/robert/.config/Code/CachedData/6d9b74a70ca9c7733b29f0456fd8195364076dda
+# environment
+LOGNAME = robert
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# environment
+SNAP_CONTEXT = jR30gR75E_WC9-c3Y6daL9bhdrzCzfjJc8ED5sELEaFG8_yQE5nS
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SNAP_USER_COMMON = /home/robert/snap/code/common
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from 'makefile', line 66)
+IMAGE_PROJECTS = $(LOCAL_ROOT)/image_projects
+# environment
+MAKELEVEL := 0
+# environment
+SNAP_REAL_HOME = /home/robert
+# makefile (from 'makefile', line 53)
+GPS_REMOTE = $(REMOTE_ROOT)/data/aust/
+# environment
+COLORTERM = truecolor
+# default
+MAKE = $(MAKE_COMMAND)
+# makefile (from 'makefile', line 92)
+DBVERSION = 1.0
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SNAP_USER_DATA = /home/robert/snap/code/104
+# environment
+SHLVL = 1
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# default
+MAKE_VERSION := 4.2.1
+# makefile (from 'make-credentials-webfaction', line 1)
+USER = robblackwell
+# environment
+SNAP_REVISION = 104
+# environment
+CAML_LD_LIBRARY_PATH = /home/robert/.opam/4.14.0/lib/stublibs:/home/robert/.opam/4.14.0/lib/ocaml/stublibs:/home/robert/.opam/4.14.0/lib/ocaml
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# makefile (from 'makefile', line 69)
+EXCLUDE_DATA = ./build/data-excludes.txt
+# makefile (from 'makefile', line 32)
+COMPOSER = $(shell which composer)
+# makefile (from 'makefile', line 97)
+MYSQLDUMPCMD = mysqldump  --single-transaction --host=localhost --user=$(MYSQL_USER) --password=$(MYSQL_USER_PASSWORD) --skip-extended-insert $(DBNAME)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from 'makefile', line 40)
+GIT_ORIGIN = origin
+# makefile (from 'makefile', line 67)
+UNITTESTS = $(LOCAL_ROOT)/UnitTests
+# default
+MAKE_COMMAND := make
+# environment
+_WSREP_START_POSITION = 
+# environment
+OLDPWD = /home/robert/Sites/whiteacorn/php
+# makefile (from 'makefile', line 59)
+HTACCESS = $(LOCAL_ROOT)/servers/$(SERVER)/.htaccess
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = en_AU:en
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-0f755e2e-1.70.1-main.sock
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+ 
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'makefile', line 55)
+INDEX = $(LOCAL_ROOT)/index.php
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# makefile (from 'makefile', line 52)
+GPS = $(LOCAL_ROOT)/data/aust/gps
+# environment
+QT_ACCESSIBILITY = 1
+# default
+MAKEFILES := 
+# environment
+SNAP_COOKIE = jR30gR75E_WC9-c3Y6daL9bhdrzCzfjJc8ED5sELEaFG8_yQE5nS
+# makefile (from 'makefile', line 77)
+RSYNC = rsync $(DRY_RUN) -atvr --delete --exclude-from=$(EXCLUDE_FILE)
+# makefile (from 'makefile', line 47)
+BUILD = $(LOCAL_ROOT)/build
+# automatic
+<F = $(notdir $<)
+# makefile (from 'makefile', line 81)
+RSYNC_DATA = sshpass -p ${PASSWORD} rsync $(DRY_RUN_DATA) -atvr --exclude-from=$(EXCLUDE_FILE) --include="content.php"
+# environment
+SNAP_NAME = code
+# makefile (from 'makefile', line 50)
+BIN = $(LOCAL_ROOT)/bin
+# environment
+LC_ALL = C
+# makefile (from 'makefile', line 39)
+GIT_BRANCH = $(shell git rev-parse --symbolic-full-name --abbrev-ref HEAD)
+# makefile (from 'makefile', line 27)
+STAGE = test_whiteacorn
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/3bed408a_3fa3_40b9_91ae_f84cc57e7b3a
+# automatic
+^F = $(notdir $^)
+# makefile (from 'makefile', line 88)
+DBNAME = $(shell php ./bin/get_dbname.php)
+# makefile (from 'makefile', line 12)
+PROJECT_ROOT = $(shell pwd)
+# environment
+GNOME_TERMINAL_SERVICE = :1.112
+# default
+SUFFIXES := 
+# environment
+SNAP_REEXEC = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# default
+.RECIPEPREFIX := 
+# environment
+PROFILEX = :profilex
+# environment
+LANG = C
+# makefile (from 'makefile', line 63)
+SCRIPTS = $(LOCAL_ROOT)/scripts
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 235458
+# makefile (from 'make-credentials-webfaction', line 2)
+HOST = robblackwell.webfactional.com
+# variable set hash-table stats:
+# Load=172/1024=17%, Rehash=0, Collisions=22/205=11%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66306, inode 38811010): 48 files, no impossibilities.
+
+# 48 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+git-push-bb: git-commit
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 308):
+	git push bitbucket $(GIT_BRANCH)
+	
+
+deploy_data_americas:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 226):
+	$(RSYNC_DATA) "$(LOCAL_ROOT)/data/theamericas/content/" $(REMOTE_ROOT)/data/theamericas/content
+
+cs-php:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 139):
+	$(PHPCS) --standard=${STANDARD} \
+		php/CampingLog \
+		php/Controller \
+		php/CtlCommand  \
+		php/Framework \
+		php/functions \
+		php/Gps \
+		php/Google \
+		php/Helper \
+		php/PhpTi \
+		php/Response \
+		php/Skin \
+		php/Widget
+
+deploy_live:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 219):
+	make deployit TARGET=whiteacorn SERVER=opalstack
+
+gps:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 357):
+	$(RSYNC) $(GPS) $(GPS_REMOTE)
+
+install_help:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 401):
+	@echo "####################################################################################################"	
+	@echo install : installs all dependencies and builds all 'dist' files for a production style system
+	@echo clean : removes all dependencies and build products.
+	@echo 
+	@echo clean-dependencies : removes all node_modules, bower_components and composer dependencies
+	@echo 
+	@echo install-dependencies : installs all node_modules, bower_components and composer dependencies
+	@echo
+	@echo "####################################################################################################"	
+
+all:
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'makefile', line 113):
+	make cs
+	cd skins; ./taskfile.sh clean && ./taskfile.sh build; cd ..
+	cd ctl; ./taskfile.sh clean && ./taskfile.sh build; cd ..
+
+.PHONY:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+deploy_opal: version
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 211):
+	make deployit TARGET=iracoon SERVER=opalstack
+
+deploy_data_aust:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 238):
+	$(RSYNC_DATA) "$(LOCAL_ROOT)/data/aust/content/" $(REMOTE_ROOT)/data/aust/content
+
+gps_help:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 363):
+	@echo "####################################################################################################"	
+	@echo make gps
+	@echo sends all gps related files for trip = 'aust' to $(REMOTE_ROOT)
+	@echo "####################################################################################################"	
+
+deploy_data:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 241):
+	$(RSYNC_DATA) "$(LOCAL_ROOT)/data/" $(REMOTE_ROOT)/data
+
+git:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 317):
+	git status;\
+	git add -A;\
+	git commit -a -m"auto commit from make file" ;\
+	bin/bumpTag.php patch;\
+	version;\
+	git push $(GIT_ORIGIN) $(GIT_BRANCH); \
+	git push $(GIT_ALT_ORIGIN) $(GIT_BRANCH); \
+	make deploy  
+
+deploy_data_bmw:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 235):
+	$(RSYNC_DATA) "$(LOCAL_ROOT)/data/bmw11/content/" $(REMOTE_ROOT)/data/bmw11/content
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bump-tag-minor:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 331):
+	bin/bumpTag.php minor; make version
+		
+
+# Not a target:
+bump:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+dump:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 274):
+	@echo Local root : $(LOCAL_ROOT)
+	@echo Project root : $(PROJECT_ROOT)
+	@echo git branch : $(GIT_BRANCH)
+	@echo Database : $(DBNAME)
+	@echo TARGET : $(TARGET)
+	@echo USER : $(USER)
+	@echo HOST : $(HOST)
+	@echo REMOTE_ROOT : $(REMOTE_ROOT)
+	@echo SQL : $(SQL)
+	@echo DBNAME : $(DBNAME)
+	@echo UTESTS : $(UTESTS)
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-16 20:15:08.892673999
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+deploydatatest:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 247):
+	$(RSYNC_DATA) "$(LOCAL_ROOT)/data/bmw11/" $(REMOTE_ROOT)/data/bmw11
+
+git-add: git-status
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 302):
+	git add -A
+ 
+
+send:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 196):
+	$(RSYNC)  $(MAKEFILE)    	$(REMOTE_ROOT)
+	$(RSYNC)   $(INDEX)         $(REMOTE_ROOT)
+	$(RSYNC)   $(BUILD)     	$(REMOTE_ROOT)
+	$(RSYNC)   $(CTL)       	$(REMOTE_ROOT)
+	$(RSYNC)   $(DOCSRC)     	$(REMOTE_ROOT)
+	$(RSYNC)   $(PHP)       	$(REMOTE_ROOT)
+	$(RSYNC)   $(SCRIPTS)     	$(REMOTE_ROOT)
+	$(RSYNC)   $(SKINS)       	$(REMOTE_ROOT)
+	$(RSYNC)   $(BIN)       	$(REMOTE_ROOT)
+	$(RSYNC)   $(IMAGES)       	$(REMOTE_ROOT)
+	$(RSYNC)   $(IMAGE_PROJECTS) $(REMOTE_ROOT)
+	# $(RSYNC) $(TEST)       	$(REMOTE_ROOT)
+
+mysql_reload:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 419):
+	$(MYSQLCMD) < ./Sql/dump.sql
+
+dump_help:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 287):
+	@echo "####################################################################################################"	
+	@echo
+	@echo make dump - dumps some of the variables for debugging
+	@echo
+	@echo "####################################################################################################"	
+
+git-push: git-push-gh
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 314):
+	make deploy  
+
+build_help:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 122):
+	@echo "####################################################################################################"	
+	@echo
+	@echo make all - applies cs to all php code, builds js/css bundles for all skins and ctl
+	@echo
+	@echo "####################################################################################################"	
+
+stash_tag: bump
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 343):
+	
+	
+
+mysql_dump:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 422):
+	$(MYSQLDUMPCMD) > ./Sql/dump.sql
+
+help:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 375):
+	@make deploy_help
+	@make dump_help
+	@make gps_help
+	@make install_help
+	@make mysql_help
+	
+
+deploy_test: version
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 215):
+	make deployit TARGET=test_whiteacorn
+
+git_clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 350):
+	bin/git_clean.php
+
+deploy_data_opal:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 250):
+	make deploy_data TARGET=ozitravelers SERVER=opalstack
+
+version:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 337):
+	php bin/version-string.php > php/config/version.php	;\
+	php bin/version-string.php 
+	
+			
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+cs-skins:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 155):
+	$(PHPCS)  -d memory_limit=256M --standard=${STANDARD} \
+		skins/antarctica/php_templates/*.php \
+		skins/asia2020/php_templates/*.php \
+		skins/suriname/php_templates/*.php \
+		skins/asia2021/php_templates/*.php \
+		skins/rtw/php_templates/*.php \
+		skins/site/php_templates/*.php \
+		skins/bmw11/php_templates/*.php \
+		skins/er/php_templates/*.php \
+		skins/theamericas/php_templates/*.php
+
+deploy_data_er:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 232):
+	$(RSYNC_DATA) "$(LOCAL_ROOT)/data/er/content/" $(REMOTE_ROOT)/data/er/content
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 118):
+	cd ctl; ./taskfile.sh; clean cd ..
+	cd skins; ./taskfile.sh clean; cd ..
+
+git-status:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 299):
+	git status
+
+install-dependencies:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 391):
+	cd php; make install
+	cd ctl; npm install
+	cd skins/rtw; npm install
+	$(COMPOSER) install
+	test -d Logs || (mkdir Logs && chmod ugo=rwx Logs)
+	test -d Temp || (mkdir Temp && chmod ugo=rwx Temp)
+	cd ../email;gulp
+
+install: install-dependencies build
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 388):
+	echo "installing dependencies"
+	
+
+git-commit: git-add
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 305):
+	git commit -a -m"auto commit from make file" 
+	
+
+bump-tag-patch:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 334):
+	bin/bumpTag.php patch; make version
+
+gps_test: version
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 360):
+	make gps TARGET=test_whiteacorn
+
+# Not a target:
+make-credentials-webfaction:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-10 10:25:13
+#  File has been updated.
+#  Successfully updated.
+
+git-push-gh: git-push-bb
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 311):
+	git push origin $(GIT_BRANCH)
+	
+
+deploy:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 189):
+	make deploy_live
+
+deploy_data_opal_whiteacorn:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 253):
+	make deploy_data_americas TARGET=whiteacorn SERVER=opalstack
+
+mysql_help:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 425):
+	@echo "####################################################################################################"	
+	@echo
+	@echo "make mysql_dump - which dumps the contents (+table creates) of the database to " $(MYSQLDUMP_FILE)
+	@echo "make mysql_reload - which relaods the database from the dump file"
+	@echo
+	@echo "####################################################################################################"	
+
+cs: cs-php cs-skins
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+deploy_data_rtw:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 229):
+	$(RSYNC_DATA) "$(LOCAL_ROOT)/data/rtw/content/" $(REMOTE_ROOT)/data/rtw/content
+
+deploy_help:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 256):
+	@echo "####################################################################################################"	
+	@echo
+	@echo make deploy - uses rsync to send all updated file to $(REMOTE_ROOT)
+	@echo "     NOTE: you can send the files to the live server with the command"
+	@echo "     make deploy TARGET=stringy.api"
+	@echo
+	@echo make deploy_live - a convenience target that does make deploy TARGET=whiteacorn
+	@echo
+	@echo "####################################################################################################"	
+
+deploy_data_test:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 244):
+	make deploy_data TARGET=test_whiteacorn
+
+deployit: git_clean version
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 193):
+	make send
+
+bump-tag-major:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 328):
+	bin/bumpTag.php major; make version
+	
+
+cs_help:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+ 
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 166):
+	@echo "####################################################################################################"	
+	@echo
+	@echo make cs - applies code sniffer to all php code
+	@echo
+	@echo "####################################################################################################"	
+
+# files hash-table stats:
+# Load=56/1024=5%, Rehash=0, Collisions=2/93=2%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 103 / storage = 1173 B / avg = 11 B
+# current buf: size = 8162 B / used = 1173 B / count = 103 / avg = 11 B
+
+# strcache performance: lookups = 183 / hit rate = 43%
+# hash-table stats:
+# Load=103/8192=1%, Rehash=0, Collisions=2/183=1%
+# Finished Make data base on Wed Aug 17 14:17:22 2022
+
+ 

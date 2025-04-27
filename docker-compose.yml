@@ -5,6 +5,31 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - './html:/var/www/html'
+      - './html/whiteacorn:/var/www/html/whiteacorn'
+      # - './html/iracoon:/var/www/html/iracoon'
+      - './html/phpmyadmin:/var/www/html/phpmyadmin'
+      # - './html/test_host:/var/www/html/test_host'
+      # - $HOME/Sites/whiteacorn:/var/www/html/whiteacorn
+      # - $HOME/Sites/iracoon:/var/www/html/iracoon
+      # - $HOME/Sites/phpmyadmin:/var/www/html/phpmyadmin
+      # - $HOME/Sites/test_site:/var/www/html/test_site
     ports:
-      - 8080:80
+      - 80:80
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+  mysql:
+    image: mysql/mysql-server
+    container_name: wa-mysql-server
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: "wara2074"
+      MYSQL_DATABASE: "whiteacorn"
+      MYSQL_USER: wauser
+      MYSQL_PASSWORD: wara2074
+    command: ["--default-authentication-plugin=mysql_native_password"]
+    volumes:
+      - dbData:/var/lib/mysql
+volumes:
+#   app:
+  dbData:

@@ -1,5 +1,5 @@
 # Whiteacorn apache2 installatioin
-
+https://www.pascallandau.com/blog/phpstorm-docker-xdebug-3-php-8-1-in-2022/
 Good reference for docker commands
 [https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes](https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes)
 
@@ -119,5 +119,5 @@ xdebug.log=/tmp/xdebug_remote.log
 ```
 This is in file `./php/conf.d/docket-php-ext-xdebug.ini`
 
-The __vscode__ launch file to match this, and provide for local host pht debugging is in file `./lanuch.json` in this 
+The __vscode__ launch file to match this, and provide for local host pht debugging is in file `./launch.json` in this 
 project root.
