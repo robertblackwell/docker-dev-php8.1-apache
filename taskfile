@@ -17,6 +17,10 @@ function run {
     docker compose up
 }
 
+function exec_bash {
+    docker exec -it apache-php-image bash
+}
+
 function stop {
     docker compose down  --remove-orphans
 }
@@ -40,7 +44,19 @@ function exec {
     docker exec -it apache-php-running /bin/bash
 }
 
+function clean {
+    docker compose down  --remove-orphans
+    docker stop apache-php-image
+    docker stop wa-mysql-server
+    docker rm apache-php-image
+    docker rm wa-mysql-server
 
+    docker image rm docker-dev-php81-apache-webserver
+    docker image rm apache-php-image
+    docker image rm mysql/mysql-server
+
+    docker volume rm docker-dev-php81-apache_dbData
+}
 
 function help {
     echo "$0 <task> <args>"

@@ -1,4 +1,4 @@
-FROM php:8.2-apache
+FROM php:8.4-apache
 
 # COPY ./apachephp/modified_apache2.conf /etc/apache2/apache2.conf
 # Its better to edit the apache2.conf already in pplace than make a
